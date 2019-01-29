@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <title>PUBG - Go big or go home</title>
+</head>
+<body>
+<div class="container-fluid">
+    <form class="col-md-4 center" id="tournament_form">
+        <div class="form-group">
+            Entry fee/team: 1 <i class="fab fa-ethereum"></i><br/>
+            Teams joined: <span id="total_teams"></span>/25<br/>
+            Price pool: <span id="prize_pool"></span> <i class="fab fa-ethereum"></i>
+        </div>
+        <div class="form-group">
+            Winner address: <span id="winner_address"></span><br/>
+            Winner proof: <span id="winner_proof"></span>
+        </div>
+        <div class="form-group">
+            <label for="uuid1">User 1</label>
+            <input type="email" class="form-control" id="email1"
+                   placeholder="Enter the user's email">
+            <input type="text" class="form-control" id="uuid1"
+                   placeholder="Enter the user's uuid">
+        </div>
+
+        <div class="form-group">
+            <label for="uuid2">User 2</label>
+            <input type="email" class="form-control" id="email2"
+                   placeholder="Enter the user's email">
+            <input type="text" class="form-control" id="uuid2"
+                   placeholder="Enter the user's uuid">
+        </div>
+
+        <div class="form-group">
+            <label for="uuid3">User 3</label>
+            <input type="email" class="form-control" id="email3"
+                   placeholder="Enter the user's email">
+            <input type="text" class="form-control" id="uuid3"
+                   placeholder="Enter the user's uuid">
+        </div>
+
+        <div class="form-group">
+            <label for="uuid4">User 4</label>
+            <input type="email" class="form-control" id="email4"
+                   placeholder="Enter the user's email">
+            <input type="text" class="form-control" id="uuid4"
+                   placeholder="Enter the user's uuid">
+        </div>
+
+
+        <div class="form-group">
+            <button type="button" class="btn btn-primary" id="join_tournament_button">Join tournament</button>
+        </div>
+    </form>
+</div>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="./js/utils/jquery-3.3.1.min.js"></script>
+<script src="./js/utils/popper.min.js"></script>
+<script src="./bootstrap/js/bootstrap.min.js"></script>
+<script src="./js/utils/web3.min.js"></script>
+<script src="./js/app.js"></script>
+</body>
+
+</html>
